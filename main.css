@@ -1,0 +1,130 @@
+       body{
+    animation:change 30s linear infinite;
+    animation-fill-mode:forwards;
+}
+@keyframes change{
+
+
+    20%{
+        background-color:#ff471a;
+    }
+    40%{
+        background-color:#99ff33;
+    }
+    60%{
+        background-color:#222;
+    }
+    80%{
+        background-color:#ff66ff;
+    }
+    100%{
+        background-color:#ff33cc;
+    }
+
+}
+#clock{
+    height: 14vmin;
+    width: 30vmax;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*border: #f98b00 solid .5vmin;*/
+
+    border-radius: 5vmin;
+    animation:change1 30s linear infinite;
+    animation-fill-mode:forwards;
+}
+@keyframes change1{
+
+    20%{
+        background: #ff471a;
+
+box-shadow: .7vmin .7vmin 1.4vmin .4vmin #ff704d,
+    -.7vmin -.7vmin 1.4vmin .4vmin #e62e00;
+    }
+    40%{
+        background: #99ff33;
+
+box-shadow: .7vmin .7vmin 1.4vmin .4vmin #63ff66,
+    -.7vmin -.7vmin 1.4vmin .4vmin #80ff00;
+    }
+    60%{
+        background: #222;
+
+box-shadow: .7vmin .7vmin 1.4vmin .4vmin #111,
+    -.7vmin -.7vmin 1.4vmin .4vmin #222;
+    }
+    80%{
+        background: #ff66ff;
+
+box-shadow: .7vmin .7vmin 1.4vmin .4vmin #ff99ff,
+    -.7vmin -.7vmin 1.4vmin .4vmin #ff33ff;
+    }
+    100%{
+        background: #ff33cc;
+
+box-shadow: .7vmin .7vmin 1.4vmin .4vmin #ff80df,
+    -.7vmin -.7vmin 1.4vmin .4vmin #ff00bf;
+    }
+
+}
+
+#sub{
+    height: 12vmin;
+    width: 28vmax;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*border: #f98b00 solid .5vmin;*/
+    border-radius: 5vmin;
+    text-align: center;
+    animation:change2 30s linear infinite ;
+    animation-fill-mode:forwards;
+
+}
+@keyframes change2{
+
+
+    20%{
+        box-shadow:inset .7vmin .7vmin 1.4vmin .4vmin #ff704d,
+    inset -.7vmin -.7vmin 1.4vmin .4vmin #e62e00;
+
+    background: #ff471a;
+    }
+    40%{
+        box-shadow:inset .7vmin .7vmin 1.4vmin .4vmin #63ff66,
+    inset -.7vmin -.7vmin 1.4vmin .4vmin #80ff00;
+
+    background: #99ff33;
+    }
+    60%{
+        box-shadow:inset .7vmin .7vmin 1.4vmin .4vmin #111,
+    inset -.7vmin -.7vmin 1.4vmin .4vmin #333;
+
+    background: #222;
+    }
+    80%{
+        box-shadow:inset .7vmin .7vmin 1.4vmin .4vmin #ff99ff,
+    inset -.7vmin -.7vmin 1.4vmin .4vmin #ff33ff;
+
+    background: #ff66ff;
+    }
+    100%{
+        box-shadow:inset .7vmin .7vmin 1.4vmin .4vmin #ff80df,
+    inset -.7vmin -.7vmin 1.4vmin .4vmin #ff00bf;
+
+    background: #ff33cc;
+    }
+
+}
+
+#time{
+    font-size: 5vmin;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12vmin;
+    text-shadow: 0 0 2vmin #000;
+
+}
